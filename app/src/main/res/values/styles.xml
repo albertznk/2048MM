@@ -1,0 +1,5 @@
+<resources>
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/action_bar</item>
+    </style>
+</resources>

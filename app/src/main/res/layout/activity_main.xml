@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#f9f7ef"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#f9f7ef"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/wv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:background="#f9f7ef"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wv"
+            android:text="Developed by Myat Min Soe" />
+
+    </RelativeLayout>
+
+</ScrollView>
